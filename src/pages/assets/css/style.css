@@ -1,6 +1,4 @@
-/* =========================================================
-   SANORDICA — DESIGN SYSTEM
-========================================================= */
+/*  SANORDICA — DESIGN/AESTHETIC SYSTEM */
 
 :root {
   --olive: #3a3d31;
@@ -19,9 +17,7 @@
 }
 
 
-/* =========================================================
-   RESET
-========================================================= */
+/* RESET */
 
 * {
   box-sizing: border-box;
@@ -61,9 +57,7 @@ button {
 }
 
 
-/* =========================================================
-   TYPOGRAPHY
-========================================================= */
+/* TYPOGRAPHY */
 
 h1,
 h2,
@@ -101,9 +95,7 @@ h2 em {
 }
 
 
-/* =========================================================
-   NAVIGATION
-========================================================= */
+/* NAVIGATION */
 
 .site-header {
   height: 90px;
@@ -181,9 +173,7 @@ h2 em {
 }
 
 
-/* =========================================================
-   HERO
-========================================================= */
+/* HERO Style */
 
 .hero {
   background: var(--cream);
@@ -234,58 +224,7 @@ h2 em {
   margin-top: 40px;
 }
 
-
-/* =========================================================
-   BUTTONS
-========================================================= */
-
-.btn {
-  min-width: 185px;
-  padding: 17px 20px;
-  display: inline-flex;
-  justify-content: space-between;
-  align-items: center;
-  gap: 35px;
-
-  font-size: 0.67rem;
-  font-weight: 600;
-  text-transform: uppercase;
-  letter-spacing: 0.17em;
-
-  transition:
-    background 0.25s ease,
-    color 0.25s ease,
-    border 0.25s ease;
-}
-
-.btn span {
-  font-size: 1.15rem;
-}
-
-.btn-primary {
-  background: var(--olive);
-  color: var(--white);
-  border: 1px solid var(--olive);
-}
-
-.btn-primary:hover {
-  background: var(--gold);
-  border-color: var(--gold);
-  color: var(--black);
-}
-
-.btn-secondary {
-  border: 1px solid #bdb8ae;
-}
-
-.btn-secondary:hover {
-  border-color: var(--olive);
-}
-
-
-/* =========================================================
-   HERO VISUAL
-========================================================= */
+/* HERO VISUAL */
 
 .hero-visual {
   position: relative;
@@ -374,10 +313,52 @@ h2 em {
   line-height: .6;
 }
 
+/* BUTTONS */
 
-/* =========================================================
-   PROCESS STRIP
-========================================================= */
+.btn {
+  min-width: 185px;
+  padding: 17px 20px;
+  display: inline-flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 35px;
+
+  font-size: 0.67rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.17em;
+
+  transition:
+    background 0.25s ease,
+    color 0.25s ease,
+    border 0.25s ease;
+}
+
+.btn span {
+  font-size: 1.15rem;
+}
+
+.btn-primary {
+  background: var(--olive);
+  color: var(--white);
+  border: 1px solid var(--olive);
+}
+
+.btn-primary:hover {
+  background: var(--gold);
+  border-color: var(--gold);
+  color: var(--black);
+}
+
+.btn-secondary {
+  border: 1px solid #bdb8ae;
+}
+
+.btn-secondary:hover {
+  border-color: var(--olive);
+}
+
+/* PROCESS STRIP */
 
 .process {
   background: var(--olive);
@@ -425,9 +406,7 @@ h2 em {
 }
 
 
-/* =========================================================
-   WHY SANORDICA
-========================================================= */
+/* WHY SANORDICA */
 
 .why-sanordica {
   padding: 125px 0;
@@ -478,9 +457,7 @@ h2 em {
 }
 
 
-/* =========================================================
-   CLIENT / CANDIDATE
-========================================================= */
+/* CLIENT / CANDIDATE */
 
 .audiences {
   background: var(--cream-dark);
@@ -567,9 +544,7 @@ h2 em {
 }
 
 
-/* =========================================================
-   INDUSTRIES
-========================================================= */
+/* INDUSTRIES */
 
 .industries {
   padding: 120px 0;
@@ -611,9 +586,7 @@ h2 em {
 }
 
 
-/* =========================================================
-   CLOSING
-========================================================= */
+/* CLOSING */
 
 .closing {
   background: var(--olive);
@@ -657,9 +630,7 @@ h2 em {
 }
 
 
-/* =========================================================
-   FOOTER
-========================================================= */
+/* FOOTER */
 
 .footer {
   background: var(--olive-dark);
@@ -711,9 +682,7 @@ h2 em {
 }
 
 
-/* =========================================================
-   RESPONSIVE
-========================================================= */
+/* RESPONSIVE */
 
 @media (max-width: 1100px) {
 
