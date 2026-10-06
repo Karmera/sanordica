@@ -1,4 +1,0 @@
-# Sanordica
-
-## Domain: sanordica.com
-
